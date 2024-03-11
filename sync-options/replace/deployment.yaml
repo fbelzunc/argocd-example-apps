@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     argocd.argoproj.io/sync-options: Replace=true
+    test: test
   name: guestbook-ui
 spec:
   replicas: 2
